@@ -1,0 +1,182 @@
+.playerContent .playerHeaderTextContent {
+  text-align: center;
+}
+.playerContent .playerImageContent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.playerContent .latestMatchesContent,
+.playerContent .latestMatchesContentTable {
+  margin-left: 20px;
+  padding-top: 20px;
+  border: 1px solid #B3B3B3;
+  background-color: #f5f5f5;
+}
+.playerContent .latestMatchesContent .latestMatchesHeroImages,
+.playerContent .latestMatchesContentTable .latestMatchesHeroImages {
+  margin-bottom: 30px;
+}
+.playerContent .latestMatchesContent .wonMatch,
+.playerContent .latestMatchesContentTable .wonMatch {
+  color: #44b863;
+}
+.playerContent .latestMatchesContent .lostMatch,
+.playerContent .latestMatchesContentTable .lostMatch {
+  color: #d13232;
+}
+.playerContent .latestMatchesContent .wonMatch,
+.playerContent .latestMatchesContentTable .wonMatch,
+.playerContent .latestMatchesContent .lostMatch,
+.playerContent .latestMatchesContentTable .lostMatch {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 11px;
+}
+.playerContent .latestMatchesContent .latestMatchesText,
+.playerContent .latestMatchesContentTable .latestMatchesText {
+  font-size: 11px;
+}
+.playerContent .latestMatchesContent {
+  min-height: 960px;
+}
+.playerContent .latestMatchesContentTable {
+  margin-left: 0;
+}
+.playerContent .playerInfo {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #e3e3e3;
+  background-color: #f5f5f5;
+}
+.playerContent .playerInfo .playerHeaderTextContent .playerHeaderText {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.playerContent .playerInfo .categoryText {
+  font-size: 11px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.playerContent .playerInfo .infoText {
+  float: right;
+  font-size: 11px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.playerContent .playerInfo .col-lg-12,
+.playerContent .playerInfo .col-lg-6 {
+  padding: 0;
+}
+.playerContent #twitterContent,
+.playerContent #mobileTwitterContent {
+  max-height: 960px;
+  max-width: 550px;
+  overflow: auto;
+  margin-right: 20px;
+  border: 1px solid #B3B3B3;
+}
+.playerContent #twitterContent .centerText,
+.playerContent #mobileTwitterContent .centerText {
+  text-align: center;
+}
+.playerContent #mobileTwitterContent {
+  margin-left: 0;
+}
+.playerContent #facebookContent {
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.playerContent #facebookContent .facebookEmbed {
+  padding-left: 0;
+  padding-right: 0;
+}
+.playerContent #facebookContent .desktop {
+  display: block;
+}
+.playerContent #facebookContent .desktopSmall {
+  display: none;
+}
+.playerContent #facebookContent .table {
+  display: none;
+}
+.playerContent .twitchContent {
+  margin: 0 auto;
+  text-align: center;
+}
+.playerContent .twitchDesktop {
+  display: block;
+}
+.welcomeContent,
+.aboutContent {
+  text-align: center;
+}
+@media screen and (min-width: 400px) and (max-width: 1665px) {
+  .playerContent #facebookContent .desktop {
+    display: none;
+  }
+  .playerContent #facebookContent .desktopSmall {
+    display: block;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 1199px) {
+  .playerContent .sideBar {
+    margin-left: 45px;
+  }
+  .playerContent .sideBar .playerInfo {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .playerContent .sideBar .latestMatchesContentTable {
+    padding: 0;
+  }
+  .playerContent .sideBar .latestMatchesContentTable .LatestMatchesBox {
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .playerContent .sideBar .latestMatchesContentTable .LatestMatchesBox .latestMatchesHeroImages {
+    margin-bottom: 15px;
+  }
+  .playerContent #facebookContent .desktopSmall {
+    display: none;
+  }
+  .playerContent #facebookContent .desktop {
+    display: block;
+  }
+  .playerContent .twitchContent {
+    margin-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 950px) {
+  .playerContent #facebookContent .desktopSmall {
+    display: block;
+  }
+  .playerContent #facebookContent .desktop {
+    display: none;
+  }
+  .playerContent .sideBar {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .playerContent #facebookContent .desktopSmall {
+    display: none;
+  }
+  .playerContent #facebookContent .desktop {
+    display: block;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .playerContent #facebookContent .desktopSmall {
+    display: block;
+  }
+  .playerContent #facebookContent .desktop {
+    display: none;
+  }
+}

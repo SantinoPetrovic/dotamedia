@@ -1,0 +1,4 @@
+.playerCreatorContainer .table .adminPlayerValuesBody .adminPlayerValues .editButton,
+.playerCreatorContainer .table .adminPlayerValuesBody .adminPlayerValues .removeButton {
+  cursor: pointer;
+}

@@ -1,0 +1,407 @@
+.playerContent {
+    .playerHeaderTextContent {
+        text-align:center;
+    }
+    .playerImageContent {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        padding:0;
+        .playerImage {
+        }
+    }
+    .latestMatchesContent, .latestMatchesContentTable {
+        margin-left:20px;
+        padding-top:20px;
+        border:1px solid #B3B3B3;
+        background-color:#f5f5f5;
+        .latestMatchesHeroImages {
+            margin-bottom:30px;
+        }
+        .wonMatch {
+            color:#44b863;
+        }
+        .lostMatch {
+            color:#d13232;
+        }
+        .wonMatch, .lostMatch {
+            font-family: 'Fira Sans', sans-serif;
+            font-size:11px;
+        }
+        .latestMatchesText {
+            font-size:11px;
+        }
+    }
+    .latestMatchesContent {
+        min-height:960px;
+    }
+    .latestMatchesContentTable {
+        margin-left:0;
+    }
+    .playerInfo {
+        margin-left:20px;
+        margin-right:20px;
+        padding-left:5px;
+        padding-right:5px;
+        border:1px solid #e3e3e3;
+        background-color:#f5f5f5;
+        .playerHeaderTextContent{
+            .playerHeaderText {
+                font-size:16px;
+                margin-top:10px;
+            }
+        }
+        .categoryText {
+            font-size:11px;
+            margin-top:5px;
+            margin-bottom:5px;
+        }
+        .infoText {
+            float:right;
+            font-size:11px;
+            margin-top:5px;
+            margin-bottom:20px;
+        }
+        .col-lg-12, .col-lg-6 {
+            padding:0;
+        }
+    }
+    #twitterContent, #mobileTwitterContent {
+        max-height:960px;
+        max-width:550px;
+        overflow:auto;
+        margin-right:20px;
+        border:1px solid #B3B3B3;
+    }
+    #mobileTwitterContent {
+        margin-left:0;
+    }
+    #facebookContent {
+        padding-left:0;
+        padding-right:0;
+        text-align:center;
+        .facebookEmbed {
+            padding-left:0;
+            padding-right:0;
+        }
+        .desktop {
+            display:block;
+        }
+        .desktopSmall {
+            display:none;
+        }
+        .table {
+            display:none;
+        }
+    }
+    .twitchContent {
+        margin:0 auto;
+        text-align:center;
+    }
+    .twitchDesktop {
+        display:block;
+    }
+    .minHeight {
+        min-height:1021px;
+    }
+}
+
+.welcomeContent, .aboutContent {
+    text-align:center;
+}
+#twitterContent{
+    .centerText {
+        text-align:center;
+    }
+}
+
+#randomFacebookContent {
+    padding-left:0;
+    padding-right:0;
+    text-align:center;
+    .facebookEmbed {
+        padding-left:0;
+        padding-right:0;
+    }
+    .desktop {
+        display:block;
+    }
+    .desktopSmall {
+        display:none;
+    }
+    .table {
+        display:none;
+    }
+}
+
+.socialMediaImage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div {
+    .matchLink {
+        color:inherit;
+    }
+    #matchContent {
+        margin-left:20px;
+        padding-top:20px;
+        padding-right:0;
+        padding-left:0;
+        padding-bottom:20px;
+        border:1px solid #B3B3B3;
+        background-color:#f5f5f5;
+        .LatestMatchesBox {
+            padding-right:7px;
+            padding-left:7px;
+        }
+    }
+    .wonMatch {
+        color:#44b863;
+    }
+    .lostMatch {
+        color:#d13232;
+    }
+    .wonMatch, .lostMatch {
+        font-family: 'Fira Sans', sans-serif;
+        font-size:11px;
+    }
+    .centerText {
+        text-align:center;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:1665px) {
+    .playerContent {
+        #facebookContent {
+            .desktop {
+                display:none;
+            }
+            .desktopSmall {
+                display:block;
+            }
+        }
+    }
+    #randomFacebookContent {
+        .desktop {
+            display:none;
+        }
+        .desktopSmall {
+            display:block;
+        }
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:1400px) {
+    .playerContent {
+        .latestMatchesContent {
+        }
+    }
+}
+@media screen and (min-width:300px) and (max-width:1199px) {
+    .playerContent {
+        .sideBar {
+            margin-left:45px;
+            .playerInfo {
+                margin-left:0;
+                margin-bottom:20px;
+            }
+            .latestMatchesContentTable {
+                padding:0;
+                .LatestMatchesBox {
+                    margin-top:15px;
+                    padding-left:5px;
+                    padding-right:5px;
+                    .latestMatchesHeroImages {
+                        margin-bottom:15px;
+                    }
+                }
+            }
+        }
+        #facebookContent {
+            .desktopSmall {
+                display:none;
+            }
+            .desktop {
+                display:block;
+            }
+        }
+        .twitchContent {
+            margin-top:20px;
+            padding-left:0;
+            padding-right:0;
+        }
+    }
+    #randomFacebookContent {
+        .desktopSmall {
+            display:none;
+        }
+        .desktop {
+            display:block;
+        }
+    }
+    #matchWithHeader {
+    	#matchContent {
+    		.LatestMatchesBox {
+    			.lostMatch, .wonMatch {
+    				text-align:center;
+    				font-size:14px;
+    			}
+    		}
+    	}
+    }
+	.latestMatchesContent {
+		.LatestMatchesBox {
+			.lostMatch, .wonMatch {
+				text-align:center;
+				font-size:14px;
+			}
+		}
+	}
+}
+@media screen and (min-width:300px) and (max-width:950px) {
+    .playerContent {
+        #facebookContent {
+            .desktopSmall {
+                display:block;
+            }
+            .desktop {
+                display:none;
+            }
+        }
+        .sideBar {
+            margin-left:20px;
+        }       
+    }
+    .welcomeContent, #twitterContent, #randomFacebookContent, #matchContent, .playerInfo, #mobileTwitterContent, .facebookDesktop, .latestMatchesContent, .twitchContent {
+    	margin-bottom: 40px;
+    }
+    #randomFacebookContent {
+        .desktopSmall {
+            display:block;
+        }
+        .desktop {
+            display:none;
+        }
+    }
+}
+@media screen and (min-width:300px) and (max-width:767px) {
+    .playerContent {
+    	.playerInfo {
+    		width:45%;
+    		margin-left:25%;
+    	}
+    	#mobileTwitterContent {
+    		width:50%;
+    		margin-left:23%;
+    	}
+    	.socialMediaImage {
+    		width:40%;
+    		margin-left:30%;
+		}
+        #facebookContent {
+            .desktopSmall {
+                display:none;
+            }
+            .desktop {
+                display:block;
+            }
+        }
+        .latestMatchesContent {
+        	width:50%;
+        	margin-left:25%;
+            .matchLink {
+                .LatestMatchesBox {
+                    .latestMatchesHeroImages {
+                        margin-bottom:10px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+        .twitchContent {
+            max-height:0;
+        }
+    }
+    #twitterContent {
+    	width:50%;
+    	margin-left:25%;
+    }
+    #randomFacebookContent {
+        .desktopSmall {
+            display:none;
+        }
+        .desktop {
+            display:block;
+        }
+    }
+    #matchWithHeader {
+    	width:50%;
+    	margin-left:25%;
+    }
+    div {
+        #matchContent {
+            margin-left:0;
+        }
+    }
+}
+@media screen and (min-width:300px) and (max-width:580px) {
+	.playerContent {
+    	#mobileTwitterContent {
+    		width:70%;
+    		margin-left:15%;
+    	}
+	}
+    #twitterContent {
+    	width:100%;
+    	margin-left:0;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:480px) {
+    .playerContent {
+    	#mobileTwitterContent {
+    		width:100%;
+    		margin-left:0;
+    	}
+    	.socialMediaImage {
+    		width:65%;
+    		margin-left:17%;
+		}
+        #facebookContent {
+            .desktopSmall {
+                display:block;
+            }
+            .desktop {
+                display:none;
+            }
+        }
+        .latestMatchesContent {
+    		width:65%;
+    		margin-left:17%;        	
+        }
+    }
+    #randomFacebookContent {
+        .desktopSmall {
+            display:block;
+        }
+        .desktop {
+            display:none;
+        }
+    }
+    #matchWithHeader {
+    	width:100%;
+    	margin-left:0;
+    }
+}
+@media screen and (min-width:300px) and (max-width:400px) {
+    .playerContent {
+	    .playerInfo {
+			width:55%;
+			margin-left:20%;
+		}
+        .latestMatchesContent {
+    		width:75%;
+    		margin-left:11%;        	
+        }
+    }
+}

@@ -1,0 +1,64 @@
+.playerSearchContent .searchResultHeader {
+  text-align: center;
+}
+.playerSearchContent .playerSearchListContent .playerSearchList {
+  font-size: 20px;
+}
+.playerSearchContent .playerSearchListContent .playerSearchList .playerSearchImage {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+@media screen and (min-width: 300px) and (max-width: 991px) {
+  .playerSearchContent .playerSearchListContent .playerSearchList {
+    font-size: 16px;
+  }
+  .playerSearchContent .playerSearchListContent .playerSearchList .playerSearchImage {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .playerSearchContent .searchResultHeader {
+    font-size: 20px;
+  }
+  .playerSearchContent .playerSearchListContent .playerSearchList {
+    font-size: 14px;
+  }
+  .playerSearchContent .playerSearchListContent .playerSearchList .playerSearchImage {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .playerSearchContent .searchResultHeader {
+    font-size: 16px;
+  }
+  .playerSearchContent .playerSearchListContent .playerSearchList {
+    font-size: 20px;
+    width: 100%;
+  }
+  .playerSearchContent .playerSearchListContent .playerSearchList .playerSearchImage {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .playerSearchContent .playerSearchListContent .playerSearchList {
+    font-size: 16px;
+  }
+  .playerSearchContent .playerSearchListContent .playerSearchList .playerSearchImage {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 360px) {
+  .playerSearchContent .playerSearchListContent .playerSearchList {
+    font-size: 14px;
+  }
+  .playerSearchContent .playerSearchListContent .playerSearchList .playerSearchImage {
+    width: 70px;
+    height: 70px;
+  }
+}
